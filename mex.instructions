@@ -1,0 +1,1 @@
+mex COMPFLAGS="$COMPFLAGS /Ot /Qax:KABYLAKE /debug:none" getTEDS.c NI-DAQmxInterface.c -L./lib/ -lNIDAQmx64 -v
